@@ -9,8 +9,8 @@ export class HeroComponent {
    public name: string = 'Ironman';
    public age: number = 45;
 
-   get capitalizeName(): string {
-    return this.name.toLocaleUpperCase();
+   get capitalizeName(): string {    //queda como propiedad
+    return this.name.toUpperCase();
    }
 
    getHeroDescription(): string {

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-counter',
@@ -10,8 +10,8 @@ import { Component, OnInit } from '@angular/core';
   `
 })
 
-export class CounterComponent {
-  public counter: number = 10;
+export class CounterComponent{
+  public counter: number = 10
   increaseBy(value:number){
     this.counter += value;
   }
